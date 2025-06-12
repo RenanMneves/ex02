@@ -1,0 +1,23 @@
+img{
+    width: 600px;
+    border-radius: 30%px;
+}
+body{
+    background-color: rgb(143, 68, 34);
+    color: rgb(8, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1{
+    color: rgb(7, 5, 124);
+}
+li{ list-style-type: circle;
+
+}
+a{
+    color: rgb(0, 255, 85);
+    text-decoration: none;
+}
+li:hover, a:hover{
+    color:chartreuse;
+}
+
