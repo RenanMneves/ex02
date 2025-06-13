@@ -1,14 +1,45 @@
 img{
-    width: 600px;
-    border-radius: 30%px;
+    width: 220px;
+    border-radius: 120px;
+    border-radius: 50px;
+    object-fit: cover;
+    height: 100px;
 }
 body{
-    background-color: rgb(143, 68, 34);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(151, 148, 145);
     color: rgb(8, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-h1{
-    color: rgb(7, 5, 124);
+header{
+    background-color: rgb(100, 97, 92);
+    color: rgb(1, 1, 14);
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+h1,h2,h3,p{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 0;
+}
+section{
+    padding: 20px;
+    max-width: 85%;
+    margin: auto;
+    background: #cacaca;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0,25);
+}
+blockquote{
+    font-style: italic;
+    border-left: 4px solid #0a0101;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0;
 }
 li{ list-style-type: circle;
 
